@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "qcolordialog": "cpp",
-        "qvboxlayout": "cpp"
+        "qvboxlayout": "cpp",
+        "qstatemachine": "cpp"
     }
 }

@@ -5,16 +5,15 @@
 
 class QtMaterialRadioButton;
 
-class QtMaterialRadioButtonPrivate : public QtMaterialCheckablePrivate
-{
-    Q_DISABLE_COPY(QtMaterialRadioButtonPrivate)
-    Q_DECLARE_PUBLIC(QtMaterialRadioButton)
+class QtMaterialRadioButtonPrivate : public QtMaterialCheckablePrivate {
+  Q_DISABLE_COPY(QtMaterialRadioButtonPrivate)
+  Q_DECLARE_PUBLIC(QtMaterialRadioButton)
 
 public:
-    QtMaterialRadioButtonPrivate(QtMaterialRadioButton *q);
-    ~QtMaterialRadioButtonPrivate();
+  QtMaterialRadioButtonPrivate(QtMaterialRadioButton *q);
+  ~QtMaterialRadioButtonPrivate();
 
-    void init();
+  void init();
 };
 
 #endif // QTMATERIALRADIOBUTTON_P_H

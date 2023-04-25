@@ -9,22 +9,21 @@ class QStackedLayout;
 class QtMaterialDialogWindow;
 class QtMaterialDialogProxy;
 
-class QtMaterialDialogPrivate
-{
-    Q_DISABLE_COPY(QtMaterialDialogPrivate)
-    Q_DECLARE_PUBLIC(QtMaterialDialog)
+class QtMaterialDialogPrivate {
+  Q_DISABLE_COPY(QtMaterialDialogPrivate)
+  Q_DECLARE_PUBLIC(QtMaterialDialog)
 
 public:
-    QtMaterialDialogPrivate(QtMaterialDialog *q);
-    ~QtMaterialDialogPrivate();
+  QtMaterialDialogPrivate(QtMaterialDialog *q);
+  ~QtMaterialDialogPrivate();
 
-    void init();
+  void init();
 
-    QtMaterialDialog       *const q_ptr;
-    QtMaterialDialogWindow *dialogWindow;
-    QStackedLayout         *proxyStack;
-    QStateMachine          *stateMachine;
-    QtMaterialDialogProxy  *proxy;
+  QtMaterialDialog *const q_ptr;
+  QtMaterialDialogWindow *dialogWindow;
+  QStackedLayout *proxyStack;
+  QStateMachine *stateMachine;
+  QtMaterialDialogProxy *proxy;
 };
 
 #endif // QTMATERIALDIALOG_P_H
